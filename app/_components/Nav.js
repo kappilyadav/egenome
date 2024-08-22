@@ -16,7 +16,7 @@ export default function Nav() {
 
   return (
     <div className="flex items-center justify-center w-full">
-        <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed top-14 mx-auto flex items-center justify-evenly bg-white rounded-3xl w-fit">
+        <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed top-14 mx-auto flex items-center justify-evenly bg-white rounded-3xl shadow-md overflow-hidden w-fit">
             <NavbarContent justify="start">
                 <NavbarMenuToggle
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
